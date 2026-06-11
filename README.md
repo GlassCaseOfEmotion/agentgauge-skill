@@ -13,7 +13,7 @@ AR-IDs and MUST/SHOULD/MAY conformance. Free scan, instant letter grade.
 ### 1. The MCP server (recommended)
 
 ```bash
-claude mcp add --transport http agentgauge https://www.agentgauge.ai/api/mcp
+claude mcp add --transport http agentgauge https://mcp.agentgauge.ai/mcp
 ```
 
 Cursor / Claude Desktop JSON config:
@@ -21,7 +21,7 @@ Cursor / Claude Desktop JSON config:
 ```json
 {
   "mcpServers": {
-    "agentgauge": { "url": "https://www.agentgauge.ai/api/mcp" }
+    "agentgauge": { "url": "https://mcp.agentgauge.ai/mcp" }
   }
 }
 ```
