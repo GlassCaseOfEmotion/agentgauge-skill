@@ -1,12 +1,21 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.GlassCaseOfEmotion/agentgauge",
+  "title": "AgentGauge",
   "description": "Scan any website's AI readiness: AI search visibility and AI agent usability. Free, no auth.",
+  "websiteUrl": "https://agentgauge.ai",
   "repository": {
     "url": "https://github.com/GlassCaseOfEmotion/agentgauge-skill",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "icons": [
+    {
+      "src": "https://www.agentgauge.ai/agentgauge-logo.png",
+      "mimeType": "image/png",
+      "sizes": ["1024x1024"]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
