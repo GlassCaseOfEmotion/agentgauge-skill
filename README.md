@@ -53,6 +53,8 @@ after deploy to verify the grade actually moved.
 31 checks across 6 categories: Discoverability, Content for Agents, AI Visibility (GEO),
 Capabilities (MCP/A2A/OpenAPI), Identity & Access, and Commerce.
 
+Publish `server.json` to the MCP Registry: Actions → Publish to MCP Registry → Run workflow.
+
 ---
 
 Built by [AgentGauge](https://www.agentgauge.ai) · Weekly monitoring:
